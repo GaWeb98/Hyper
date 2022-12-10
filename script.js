@@ -2,14 +2,13 @@ window.onload = function menuClick() {
 let icone = document.querySelector('.menumobile');
 let menu = document.querySelector('.menu nav ul');
     icone.addEventListener('click', ()=>{
-        if(menu.style.display == 'none'){
-            menu.style.display = 'flex';
-        } else {
+        if(menu.style.display == 'flex'){
             menu.style.display = 'none';
+        } else {
+            menu.style.display = 'flex';
         }
     });
 };
-
 
 let posiSlide = 0;
 

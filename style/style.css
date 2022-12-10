@@ -36,13 +36,13 @@ header {
 
 }
 .whats a:hover {
-    box-shadow: 0px 0px 40px 15px #099409;
+    box-shadow: 0px 0px 0px 10px #099409;
 }
 @keyframes whats {
     0% {box-shadow: 0px 0px 0px 0px #099409;}
-    40% {box-shadow: 0px 0px 35px 10px #099409;}
-    60% {box-shadow: 0px 0px 40px 10px #099409;}
-    40% {box-shadow: 0px 0px 35px 10px #099409;}
+    40% {box-shadow: 0px 0px 0px 10px #099409;}
+    60% {box-shadow: 0px 0px 0px 10px #099409;}
+    40% {box-shadow: 0px 0px 0px 10px #099409;}
     0% {box-shadow: 0px 0px 0px 0px #099409;}
 }
 
@@ -100,8 +100,7 @@ nav ul {
 .slider--controls {
     margin-left: 10px;
     position: absolute;
-    z-index: 99;
-    width: 98vw;
+    width: 97vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,7 +151,7 @@ nav ul {
     flex-direction: column;
     background-color: #000;
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     flex: 1;
     min-height: 600px;
@@ -174,6 +173,8 @@ nav ul {
     margin-bottom: 10px;
     color:#000;
     font-size: 48px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #fff;
     border-radius: 5px;
 }
@@ -265,6 +266,7 @@ nav ul {
     max-width: 800px;
     display: flex;
     align-items: flex-start;
+    overflow-x: hidden;
 }
 .contato--numeros {
     display: flex;
@@ -373,6 +375,7 @@ nav ul {
     }
     .contato--img img {
         margin-right: 40px;
+        overflow-x: hidden;
     }
     
 }
