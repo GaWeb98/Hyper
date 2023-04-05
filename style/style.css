@@ -142,6 +142,7 @@ nav ul {
 .planos {
     align-items: center;
     display: flex;
+    width: 80vw;
     margin-top: 50px;
     flex-wrap: wrap;
     color: #fff;
@@ -164,7 +165,7 @@ nav ul {
     flex-direction: column;
     padding: 5px;
 }
-.slider--item:nth-child(2n+1) {
+.slider--item:nth-child(3n+2) {
     background-color: #640007;
 }
 
@@ -311,7 +312,14 @@ nav ul {
 .links--pessoais--footer, .links--footer {
     font-size: 13px;
 }
-
+.links--pessoais--footer {
+    text-decoration: none;
+    background-color: #111111;
+}
+.links--pessoais--footer a {
+    text-decoration: none;
+    color: #747474;
+}
 
 /*-------MEDIA-------*/
 .menumobile {
